@@ -1,0 +1,28 @@
+{
+    "name": "buy/product",
+    "description": "",
+    "authors": [
+        {
+            "name": "高超",
+            "email": "samuelforwork@qq.com"
+        }
+    ],
+    "repositories": [{
+      "type": "composer",
+      "url": "http://127.0.0.1/wechats/"
+    }],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "samuelmantou/wechat": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Buy\\Product\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
